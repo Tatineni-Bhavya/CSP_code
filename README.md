@@ -1,60 +1,111 @@
 
-# Healthy Minds, Healthy Lives – WellnessBreak App  
 
-> **Prioritizing Student Well-Being for a Brighter Future**  
+# WellnessBreak – Healthy Minds, Healthy Lives
 
-## Abstract  
-Increasing academic demands and lifestyle pressures have negatively affected students’ physical fitness and mental health. To address this, we developed **WellnessBreak**, a Flutter-based mobile application designed to promote student well-being through **customized notifications, physical activity tracking, hydration reminders, and step tracking**.  
+> Prioritizing Student Well-Being for a Brighter Future
 
-The app encourages students to take **regular breaks**, **stay active**, and **maintain healthy routines** alongside their academic responsibilities. By integrating **technology-driven wellness practices**, the project aims to foster healthier lifestyles, reduce stress, and improve overall academic performance.  
+## Abstract
+The academic journey often demands long hours of study, resulting in increased screen time, poor posture, irregular breaks, and unhealthy routines. WellnessBreak is a Flutter-based mobile app designed to help students manage their physical and mental well-being alongside academic success. It delivers categorized notifications, step tracking, and hydration goals to encourage regular breaks, movement, and self-care — helping students maintain balance between productivity and health.
 
-Key features include:  
-- **Customizable notifications** for study breaks, stretching, and hydration.  
-- **Step tracking** with motivational feedback.  
-- **Water intake calculator** based on personal details.  
-- **Theme customization** for user preference.  
-- **Help section** for easy navigation and support.  
+## Problem Statement
+Students today face a blend of academic stress, prolonged screen time, and sedentary lifestyles, leading to:
 
----
+- Decline in physical fitness due to lack of movement.
+- Increased stress & anxiety from academic pressure.
+- Poor posture & digital eye strain caused by excessive device use.
+- Neglect of hydration and nutrition due to improper routines.
 
-## Features  
-- **Study Mode Notifications**: Reminders for breaks & stretches while studying.  
-- **Screen Time Management**: Notifications for prolonged mobile use.  
-- **Step Tracking**: Daily step count with goal setting.  
-- **Water Intake Calculator**: Personalized hydration goals.  
-- **Dark/Light Theme**: Choose between app themes.  
-- **Help Section**: FAQ and guidance for app usage.  
+## Solution
+WellnessBreak provides technology-driven wellness support by:
 
----
+- Sending categorized notifications for breaks, stretches, and hydration during study sessions.
+- Tracking steps & physical activity with motivational feedback.
+- Calculating personalized hydration goals based on user details.
+- Offering a user-friendly interface to integrate wellness into daily routines.
 
-## Application Images  
+This app empowers students to achieve academic goals without sacrificing health.
 
-### Home & Study Pages  
-![Home Page](extracted_images/image_1.png)  
-![Home Page Scrolled](extracted_images/image_2.png)  
-![Studying on Book](extracted_images/image_3.png)  
-![Studying on Mobile](extracted_images/image_5.png)  
+## Features
+📲 Smart Notifications – Study mode reminders for breaks, hydration, and posture correction.
 
-### Notifications  
-![Notifications Started](extracted_images/image_6.png)  
-![Notifications Closed](extracted_images/image_9.png)  
-![Full Drag Notifications](extracted_images/image_10.png)  
-![Stopped Studying](extracted_images/image_11.png)  
+🚶 Step Tracking – Monitors daily physical activity using mobile sensors.
 
-### Setup & Tracking  
-![Initial Permissions](extracted_images/image_14.png)  
-![Goal Setting](extracted_images/image_15.png)  
-![Initial Tracking](extracted_images/image_16.png)  
-![Goal Tracking](extracted_images/image_20.png)  
-![Goal Reached](extracted_images/image_21.png)  
-![End of Day Evaluation](extracted_images/image_24.png)  
+💧 Hydration Calculator – Calculates and tracks daily water intake goals.
 
-### Themes & Other Pages  
-![Theme Settings](extracted_images/image_25.png)  
-![Pedometer (Black Theme)](extracted_images/image_26.png)  
-![Water Page](extracted_images/image_27.png)  
+🎨 Theme Customization – Switch between light and dark modes.
 
----
+📘 Help Section – Simple guidance to navigate all features.
 
-## Project Repository  
-[**GitHub Repository**](https://github.com/Tatineni-Bhavya/CSP_code)
+## Tech Stack
+**Framework:** Flutter (Dart)
+
+**UI:** Material Design & Cupertino Widgets
+
+**Navigation:** Persistent Bottom Navigation Bar
+
+**Storage:** Local storage for user preferences & tracking
+
+## How to Run
+Clone the repository:
+
+```bash
+git clone https://github.com/Tatineni-Bhavya/CSP_code.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd CSP_code
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the app:
+
+```bash
+flutter run
+```
+
+## Future Scope
+- **Integration with Wearable Devices:** Sync data from smartwatches for real-time activity monitoring.
+- **Gamification:** Introduce wellness challenges & reward points for healthy habits.
+- **Community Features:** Enable group participation in fitness activities for peer motivation.
+- **Analytics Dashboard:** Provide weekly wellness insights for improved habit tracking.
+
+## **Application Images**  
+*(When you run this application, you will see the following outputs)*  
+
+The **WellnessBreak** app has been successfully tested on:  
+- **Android Emulator** (for development & debugging)  
+- **Real Device:** **Oppo A16K Mobile**  
+
+  
+
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="extracted_images/image_1.png" alt="image_1" width="120" />
+  <img src="extracted_images/image_2.png" alt="image_2" width="120" />
+  <img src="extracted_images/image_3.png" alt="image_3" width="120" />
+  <img src="extracted_images/image_5.png" alt="image_5" width="120" />
+  <img src="extracted_images/image_9.png" alt="image_9" width="120" />
+  <img src="extracted_images/image_10.png" alt="image_10" width="120" />
+  <img src="extracted_images/image_14.png" alt="image_14" width="120" />
+  <img src="extracted_images/image_15.png" alt="image_15" width="120" />
+  <img src="extracted_images/image_16.png" alt="image_16" width="120" />
+  <img src="extracted_images/image_20.png" alt="image_20" width="120" />
+  <img src="extracted_images/image_24.png" alt="image_24" width="120" />
+  <img src="extracted_images/image_25.png" alt="image_25" width="120" />
+  <img src="extracted_images/image_26.png" alt="image_26" width="120" />
+  <img src="extracted_images/image_29.png" alt="image_29" width="120" />
+  <img src="extracted_images/image_30.png" alt="image_30" width="120" />
+  <img src="extracted_images/image_33.png" alt="image_33" width="120" />
+  <img src="extracted_images/image_34.png" alt="image_34" width="120" />
+  <img src="extracted_images/image_35.png" alt="image_35" width="120" />
+  <img src="extracted_images/image_36.png" alt="image_36" width="120" />
+</div>
+
